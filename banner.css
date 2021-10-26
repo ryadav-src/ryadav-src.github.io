@@ -1,7 +1,7 @@
 #Header{
     width: 100%;
     margin: 0;
-    background-color: lightgray;
+    background-color: silver;
 }
 #HeaderBox{
     margin-left: 20%;
@@ -9,12 +9,12 @@
     font-size: 300%;
 }
 #Navigation{
-    margin-left: 15%;
-    margin-right: 55%;
+    margin-left: 20%;
+    margin-right: 40%;
     padding-top: 1%;
     padding-bottom: 1%;
     display: flex;
-    justify-content: space-evenly;
+    text-underline-offset: .5em;
 }
 .HeaderButton{
     display:inline-flex;
@@ -22,4 +22,8 @@
     text-align: center;
     color:black;
     font-size: 150%;
+    padding-right: 1em;
+}
+#Navigation a{
+    text-decoration: none;
 }
