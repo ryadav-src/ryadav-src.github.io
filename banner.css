@@ -27,3 +27,13 @@
 #Navigation a{
     text-decoration: none;
 }
+@media (max-width: 1000px) {
+    #HeaderBox{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #Navigation{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
