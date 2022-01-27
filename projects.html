@@ -31,7 +31,7 @@ ubusercontent.com/ryadav-src/exp-Levy-option-pricer/main/thesis.pdf">
                 <p>
                     I initially became interested in Lévy processes and exp-Lévy
                     models as it provided an alternative to the standard 
-                    Black-Scholes model, which assumes continuity at any 
+                    Black-Scholes-Merton model, which assumes continuity at any 
                     time-scale and no jumps.<br>
                 </p>
                 <div style="clear: left; display: flex;">
@@ -43,11 +43,13 @@ ubusercontent.com/ryadav-src/exp-Levy-option-pricer/main/thesis.pdf">
                     </p> 
                 </div>
                 <p>
-                    On the left there is a path from the B-S model and on the 
-                    right is the historical data. The discrepancy 
-                    between the model and actual data is as clear as day, 
-                    so I needed a new model - and the exp-Lévy model fit the 
-                    criteria.
+                    In <span style="color: #ff0000">red</span> there is a path
+                    of the standard Wiener process (used in BSM model). This is
+                    overlaid by EUR/JPY forex data from 17/01/2022 00:00 to 
+                    02:00 GMT - which was updated at a 1 second frequency.
+                    The discrepancy between the model and actual data is
+                    evident, thus the requirement for a new model - the exp-Lévy
+                    model.
                 </p>
 
             <h2>Option pricing with the Heston Model</h2>
