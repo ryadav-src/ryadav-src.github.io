@@ -44,12 +44,20 @@ ubusercontent.com/ryadav-src/exp-Levy-option-pricer/main/thesis.pdf">
                 </div>
                 <p>
                     In <span style="color: #ff0000">red</span> there is a path
-                    of the standard Wiener process (used in BSM model). This is
+                    of the 
+                    <a href="https://en.wikipedia.org/wiki/Wiener_process">
+                    Wiener process</a> (used in the BSM model). This is 
                     overlaid by EUR/JPY forex data from 17/01/2022 00:00 to 
-                    02:00 GMT - which was updated at a 1 second frequency.
-                    The discrepancy between the model and actual data is
-                    evident, thus the requirement for a new model - the exp-Lévy
-                    model.
+                    02:00 GMT in 1 second intervals. 
+                    As we can see, the pathwise properties of the model and 
+                    actual data are dissimilar, thus we need something that models 
+                    jumps at random times, see 
+                    <a href="https://en.wikipedia.org/wiki/Jump_process">
+                    Jump processes</a> - an example of a Lévy process that is 
+                    used as a starting point in my thesis. Through the use 
+                    of the theory of Lévy processes and Fourier-based methods,
+                    we are then able to present an option pricing method using 
+                    the exp-Lévy model.
                 </p>
 
             <h2>Option pricing with the Heston Model</h2>
